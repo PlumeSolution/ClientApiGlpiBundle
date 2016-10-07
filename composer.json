@@ -1,0 +1,24 @@
+{
+    "name": "l3/client-api-glpi-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle Symfony 2.7 for simple use webservices of GLPI.",
+    "homepage": "https://github.com/mhetru/ClientApiGlpiBundle",
+    "license": "(c) Copyright Universite Lille3 - Charles de Gaulle",
+    "authors": [
+        {
+            "name": "Guillaume Fieni",
+            "email": "guillaume.fieni@ext.univ-lille3.fr"
+        },
+        {
+            "name": "Mathieu Hétru",
+            "email": "mathieu.hetru@univ-lille3.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "~2,>=2.7"
+    },
+    "autoload": {
+        "psr-4": { "L3\\Bundle\\ClientApiGlpiBundle\\": "" }
+    }
+}
