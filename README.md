@@ -1,24 +1,16 @@
-Bundle Symfony 2.7 pour faciliter l'utilisation des webservices de GLPI.
+Bundle Symfony 2.7 for simple use webservices of GLPI
 
 Installation
 ====
 
-L'installation se fait via composer. Dans un premier temps, il faut ajouter le repository au composer.json à la racine du projet symfony :
 
-```
-"repositories": [{
-   "type": "composer",
-   "url": "https://packagist.univ-lille3.fr/"
-}]
-```
-
-Ensuite il faut executer la commande :
+use this command :
 
 ```
    composer require "l3/client-api-glpi-bundle"
 ```
 
-Et enfin, ajouter le bundle à AppKernel.php
+and add the bundle in AppKernel.php file.
 
 ```
 <?php
@@ -45,7 +37,7 @@ class AppKernel extends Kernel
 Configuration
 ====
 
-Dans votre application, il faut ajouter un service afin de pouvoir utiliser les fonctions du Bundle :
+In your application, you should add a service in order to user the functions of this bundle :
 
 ### Pour utiliser le protocole XML-RPC : ###
 
@@ -61,7 +53,7 @@ services:
         arguments: ["%webservice_xmlrpc_url%"]
 ```
 
-### Pour utiliser le protocole REST : ###
+### For use REST protocol : ###
 
 ```
 parameters:
