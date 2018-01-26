@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Bundle Symfony 2.7 for simple use webservices of GLPI.",
     "homepage": "https://github.com/mhetru/ClientApiGlpiBundle",
-    "license": "(c) Copyright Universite Lille3 - Charles de Gaulle",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Guillaume Fieni",
